@@ -14,20 +14,26 @@ body {
 }
 
 .chat-win{
-    background-image: url(/assets/chat-bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url(assets/chat-bg.jpg);
     background-size: cover;
     background-position: center;
     border: 2px solid rgb(214, 208, 208);
+    border-radius: 15px;
     height: 80vh;
     width: 80vw;
     box-shadow: 3px 4px 8px rgba(0,  0, 0, .6);
 }
 
 .room-name{
-    margin: 5px;
+    color: whitesmoke;
+    border-radius: 15px;
+    padding-left: 12px;
+    margin-bottom: 7px;
     font-family: Arial, sans-serif;
     font-weight: bold;
     font-size: 20px;
+    background-color: #0e5721;
 }
 
 .msg{
@@ -62,11 +68,12 @@ body {
     font-size: 15px;
     width: 74vw;
     height: 5vh;
-    /* background-color: #fdfefe; */
+    border-radius: 15px;
 }
 
 #send-btn{
     border: 0;
+    border-radius: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #06776a;
     font-weight: bold;

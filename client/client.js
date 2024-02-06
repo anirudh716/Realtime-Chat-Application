@@ -11,6 +11,11 @@ app.use(express.static(join(__dirname, "public")));
 app.get('/', (req, res) => {
     res.sendFile(join(__dirname, "public", "index.html"));
 });
+
+app.post('/submit', (req, res) => {
+    res.sendFile(join(__dirname, "public", "chat.html"));
+});
+
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
 });

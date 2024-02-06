@@ -4,7 +4,7 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
-    background-image: url(/assets/bg-img.jpg);
+    background-image: url(assets/bg-img.jpg);
 }
 
 .card {
