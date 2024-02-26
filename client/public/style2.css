@@ -1,9 +1,9 @@
-body {
+/* body {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: antiquewhite;
-}
+} */
 
 #heading{
     color: #002a54;
@@ -25,16 +25,6 @@ body {
     box-shadow: 3px 4px 8px rgba(0,  0, 0, .6);
 }
 
-.room-name{
-    color: whitesmoke;
-    border-radius: 15px;
-    padding-left: 12px;
-    margin-bottom: 7px;
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    background-color: #0e5721;
-}
 
 .msg{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

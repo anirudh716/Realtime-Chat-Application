@@ -1,5 +1,5 @@
 import { Server } from 'socket.io';
-const io = new Server(8000);
+const io = new Server(2000);
 const users = {};
 
 io.on('connection', socket => {
